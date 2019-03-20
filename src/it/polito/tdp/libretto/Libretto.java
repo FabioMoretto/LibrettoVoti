@@ -1,6 +1,5 @@
 package it.polito.tdp.libretto;
 
-import java.time.LocalDate;
 import java.util.*;
 
 public class Libretto {
@@ -11,8 +10,12 @@ public class Libretto {
 		this.voti = new ArrayList <Voto>();
 	}
 	
+	/**
+	 * Aggiunge un nuov voto nel libretto
+	 * @param v il {@link Voto} da aggiungere
+	 */
 	public void add(Voto v) {
-		
+		voti.add(v);
 	}
 
 }
